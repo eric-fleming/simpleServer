@@ -1,0 +1,20 @@
+{
+  "name": "simpleserver",
+  "version": "1.0.0",
+  "description": "A simpler server.  A starting place for other projects to build off from.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "simple",
+    "server"
+  ],
+  "author": "Eric Fleming",
+  "license": "ISC",
+  "dependencies": {
+    "@stencil/core": "^2.3.0",
+    "express": "^4.17.1"
+  }
+}
