@@ -8,7 +8,7 @@ app.use('/static', express.static(path.join(__dirname, 'src')))
 
 // default route
 app.get('/', (req, res) => {
-  res.sendFile('./public/index/index.html', { root: __dirname });
+  res.sendFile('./src/index/index.html', { root: __dirname });
 });
 
 app.get('/hello', (req, res) => {
