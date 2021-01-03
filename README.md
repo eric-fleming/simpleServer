@@ -8,3 +8,6 @@ Make sure you download a copy of node.js.  Open up a terminal/shell and run the 
 $ npm install
 $ npm start
 ```
+
+## Notable Dependencies
++  Express.js
