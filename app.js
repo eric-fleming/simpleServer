@@ -1,7 +1,7 @@
 const express = require('express')
 const path = require('path');
 const app = express()
-const port = 3000
+const port = process.env.PORT || 8080;
 
 // middleware plugin to grab static content from the public folder
 app.use(express.static('src'));
